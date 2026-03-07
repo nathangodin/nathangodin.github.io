@@ -1,0 +1,25 @@
+title: Nathan Godin
+baseURL: https://nathangodin.com/
+
+params:
+  description: 'PhD Candidate in Finance and Real Estate'
+
+menus:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: Research
+      url: /research/
+      weight: 20
+    - name: CV
+      url: /cv/
+      weight: 30
+    - name: Projects
+      url: /projects/
+      weight: 40
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
