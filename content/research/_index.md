@@ -8,7 +8,7 @@ title: Research
 
 **Economics Letters** (2025)
 
-With Akos Horvath, Xingliang Ma, and Jacob Sagi
+With [Akos Horvath](https://www.federalreserve.gov/econres/akos-horvath.htm), [Xingliang Ma](https://www.linkedin.com/in/xingliangma), and [Jacob Sagi](https://sites.google.com/view/professor-jssagi)
 
 Abstract: We find that the pre-Global Financial Crisis pricing of mortgages originated for placement into commercial mortgage-backed security trusts did not meaningfully depend on whether non-investment grade tranches of such trusts were sold soon after issuance into collateralized debt obligation pools.
 
@@ -28,7 +28,7 @@ Abstract: Condominium maintenance requires collective saving for predictable cap
 
 **FEDS Working Paper** (2024)
 
-With Simon Firestone, Akos Horvath, and Jacob Sagi
+With [Simon Firestone](https://www.linkedin.com/in/simon-firestone/), [Akos Horvath](https://www.federalreserve.gov/econres/akos-horvath.htm), and [Jacob Sagi](https://sites.google.com/view/professor-jssagi)
 
 Abstract: We use model-implied volatility to proxy for property risk perceptions in the commercial real estate lending market. Although loan-to-value ratios (LTVs) unconditionally decreased following the Global Financial Crisis, LTVs conditioned on implied volatility and other theoretically motivated fundamental determinants of optimal leverage show no conclusive trend before or after the crisis. Taking reported property and loan attributes at face value, we find no clear pattern of unwarranted credit being extended to commercial real estate assets. We conclude that systematically higher LTV decisions pre-crisis would have primarily stemmed from risk misperceptions rather than imprudent practices. Our findings suggest that the aggregate LTV level should be interpreted as a proxy for lending standards only after controlling for aggregate risk perceptions, among a host of asset and lending market factors. Our findings also highlight the importance of measuring and tracking aggregate risk perceptions in informing regulators and policymakers.
 
@@ -40,7 +40,7 @@ Abstract: We use model-implied volatility to proxy for property risk perceptions
 
 **FRBNY Blog Post** (2021)
 
-With Asani Sarkar, Claire Kramer Mills, and Jessica Battisto
+With [Asani Sarkar](https://www.newyorkfed.org/research/economists/sarkar), [Claire Kramer Mills](https://www.linkedin.com/in/claire-kramer-mills-a0aa622/), and [Jessica Battisto](https://www.linkedin.com/in/jessicabattisto/)
 
 <br>
 
@@ -48,4 +48,4 @@ With Asani Sarkar, Claire Kramer Mills, and Jessica Battisto
 
 **FRBNY Blog Post** (2021)
 
-With Asani Sarkar, Claire Kramer Mills, and Jessica Battisto
+With [Asani Sarkar](https://www.newyorkfed.org/research/economists/sarkar), [Claire Kramer Mills](https://www.linkedin.com/in/claire-kramer-mills-a0aa622/), and [Jessica Battisto](https://www.linkedin.com/in/jessicabattisto/)
