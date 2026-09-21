@@ -2,3 +2,15 @@ public/
 resources/_gen/
 .hugo_build.lock
 node_modules/
+
+# LaTeX build artifacts (cv-src)
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out
+cv-src/*.log
+cv-src/cv.pdf

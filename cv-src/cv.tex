@@ -1,0 +1,236 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage{hyperref}
+    \hypersetup{
+    colorlinks=false,
+}
+    \usepackage{hanging}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage{lmodern} % vector T1 fonts (cm-super equivalent) for local MiKTeX builds
+%    \usepackage{times}
+    \usepackage[margin=1in]{geometry}
+    \usepackage{fontawesome}
+    \usepackage{setspace}
+    \textheight=10in
+    \pagestyle{empty}
+    \usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+    \raggedright
+    \usepackage{color}
+    \definecolor{darkblue}{rgb}{0,0,0.5}
+    \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{1pt} \textbf{\MakeUppercase{#1}}}
+ %   \vspace*{-6pt} 
+    \lineunder
+}
+
+
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+ \begin{document}
+\vspace*{-40pt}
+
+
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\LARGE \textbf{\MakeUppercase{Nathan Godin}}}\\
+\vspace{3mm}
+	2220 Piedmont Ave, Berkeley, CA 94720 $\diamond$
+nathan\_godin@berkeley.edu $\diamond$
+	(704) 343-1322 \\
+
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\vspace{1mm}
+\textbf{University of California, Berkeley, Haas School of Business}\hfill 2028 (expected)\\
+Ph.D., Finance and Real Estate \\
+\vspace{3mm}
+\textbf{University of Michigan, Ross School of Business}\hfill 2022-2023\\
+Ph.D., Finance (transferred to Berkeley) \\
+\vspace{3mm}
+\textbf{University of North Carolina at Chapel Hill}\hfill 2020\\
+B.S., Mathematics, with Distinction \\
+\vspace{3mm}
+Visiting Student, Columbia University (Macroeconomics) \hfill 2021\\ 
+Study Abroad, Chinese University of Hong Kong (International Business and Marketing) \hfill 2017\\
+\vspace{5mm}
+
+%==== Research Interests ====%
+\header{Research Interests}
+\vspace{1mm}
+Real estate finance, Household finance, Economic policy
+\vspace{5mm}
+
+%==== Publications ====%
+\header{Publications}
+\vspace{1mm}
+\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5589272}{Skin in the Game and Securitized Commercial Mortgage Pricing \\ Before the Global Financial Crisis}\hfill 2025\\
+\textit{With Akos Horvath, Xingliang Ma, and Jacob Sagi}\hfill{Economics Letters}\\
+\vspace{3mm}
+\textbf{Abstract:} We find that the pre-Global Financial Crisis pricing of mortgages originated for placement into commercial mortgage-backed security trusts did not meaningfully depend on whether non-investment grade tranches of such trusts were sold soon after issuance into collateralized debt obligation pools.\\
+\vspace{5mm}
+
+%==== Papers ====%
+\header{Work in Progress}
+\vspace{1mm}
+\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6435138}{Homeowners Associations, Reserve Funding, and Condominium Maintenance: \\ Evidence from Florida}\hfill 2026\\
+\textit{}\hfill{SSRN Working Paper}\\
+\vspace{3mm}
+\textbf{Abstract:} Condominium maintenance requires collective saving for predictable capital expenditures. I study Florida’s 2022 SB 4-D law, which mandates structural reserve funding and milestone inspections for condominium buildings. Difference-in-differences estimates show that the law raised HOA fees by 4.9–6.8 percent and permit probabilities by about 1.4–3.9 percentage points, indicating that real maintenance spending had been deferred. I then construct an association-level measure of reserve-adjustment intensity, $\Delta_i$, to study heterogeneity in market responses to reserve catch-up. Reduced-form event studies show little broad price response, but a one-standard-deviation larger reserve adjustment is associated with roughly 2–3 percentage points more negative price growth, and capitalization timing tests show that high-$\Delta_i$ associations have about 7 percent lower listed prices in levels by 2025. Relative to full mechanical capitalization of the fee increase as net new cost, the estimated price response is much smaller in magnitude, suggesting that buyers treat much of the higher reserve contribution as replacing expected future special assessments or other deferred liabilities. Larger fee growth is also associated with more assessment liens against unit owners, and suggestive cross-sectional evidence points to financial capacity rather than association complexity as a driver of reserve underfunding.\\
+\vspace{3mm}
+\textit{Presented at}: ASSA-AREUEA Annual Meeting (2027, scheduled)\\
+\vspace{3mm}
+Covered by the \href{https://www.sfchronicle.com/realestate/article/hoa-condo-fee-california-22431478.php}{San Francisco Chronicle}
+
+%\vspace{3mm}
+%* is presented by coauthor
+\vspace{5mm}
+
+\href{https://www.federalreserve.gov/econres/feds/risk-perception-and-loan-underwriting-in-securitized-commercial-mortgages.htm}{Risk Perception and Loan Underwriting in Securitized Commercial Mortgages}\hfill 2024\\
+%{\textbf{Risk Perception and Loan Underwriting in Securitized Commercial Mortgages}}\\
+\textit{With Simon Firestone, Akos Horvath, and Jacob Sagi}\hfill{FEDS Working Paper}\\
+\vspace{3mm}
+\textbf{Abstract:} We use model-implied volatility to proxy for property risk perceptions in the commercial real estate lending market. Although loan-to-value ratios (LTVs) unconditionally decreased following the Global Financial Crisis, LTVs conditioned on implied volatility and other theoretically motivated fundamental determinants of optimal leverage show no conclusive trend before or after the crisis. Taking reported property and loan attributes at face value, we find no clear pattern of unwarranted credit being extended to commercial real estate assets. We conclude that systematically higher LTV decisions pre-crisis would have primarily stemmed from risk misperceptions rather than imprudent practices. Our findings suggest that the aggregate LTV level should be interpreted as a proxy for lending standards only after controlling for aggregate risk perceptions, among a host of asset and lending market factors. Our findings also highlight the importance of measuring and tracking aggregate risk perceptions in informing regulators and policymakers.\\
+\vspace{3mm}
+\textit{Presented at}: Federal Reserve Board (2021), University of Wisconsin Business School (2022), \\ Cleveland Fed (2022), Pre-WFA Real Estate Symposium (2023), Baruch College (2023), \\ Securities Exchange Commission (2023), AREUEA (2025), William \& Mary (2025), \\  Boca Finance and Real Estate Conference (2025)
+
+%\vspace{3mm}
+%* is presented by coauthor
+\vspace{5mm}
+
+
+%==== Research ====%
+\header{Other Research}
+\vspace{1mm}
+
+\href{https://libertystreeteconomics.newyorkfed.org/2021/05/who-received-ppp-loans-by-fintech-lenders/}{Who Received PPP Loans by Fintech Lenders?}\hfill 2021 \\ 
+\textit{With Asani Sarkar, Claire Kramer Mills, and Jessica Battisto}  \hfill{FRBNY Blog Post} \\
+\vspace{3mm}
+Cited in 
+\href{https://docs.house.gov/meetings/BA/BA15/20210929/114093/HHRG-117-BA15-Wstate-Henry-NickieM-20210929.pdf}{Congressional Testimony} before the House Financial Services
+Consumer Protection and Financial Institutions Subcommittee, covered by
+\href{https://thehill.com/opinion/finance/560133-fintech-lenders-are-critical-to-small-businesses-accessing-ppp}{The Hill} and
+\href{https://www.ft.com/content/4face0c6-c1fb-47af-972b-8749e92b4baf?desktop=true&segmentId=7c8f09b9-9b61-4fbb-9430-9208a9e233c8}{Financial Times}
+
+
+
+\vspace{3mm}
+\href{https://libertystreeteconomics.newyorkfed.org/2021/05/who-benefited-from-ppp-loans-by-fintech-lenders/}{Who Benefited from PPP Loans by Fintech Lenders?}\hfill 2021 \\
+\textit{With Asani Sarkar, Claire Kramer Mills, and Jessica Battisto} \hfill FRBNY Blog Post \\
+\vspace{3mm}
+This blog post and previous post covered by
+\href{https://www.reuters.com/article/usa-fed-small-business-idUSL2N2NE15C}{Reuters}, \href{https://www.bloombergquint.com/onweb/black-business-owners-turned-to-fintech-to-get-u-s-pandemic-aid}{Bloomberg}, and \href{https://www.americanbanker.com/news/can-fintechs-build-on-strong-ppp-lending-to-black-businesses}{American Banker}
+
+\vspace{5mm}
+%\header{Credited Research Assistance}
+%\begin{hangparas}{9mm}{1}
+%Azar, Pablo, \href{https://www.newyorkfed.org/research/staff_%reports/sr970.html}{Combinatorial Growth with Physical %Constraints: Evidence from Electronic Miniaturization} %(2021). {\it Federal Reserve Bank of New York Staff Report %No. 970.}
+%\end{hangparas}
+%\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+	%==== Fed ====%
+Federal Reserve Bank of New York \hfill New York, NY\\
+\textit{Senior Research Analyst – Money and Payments Studies Function} \hfill 2020-2022 \\
+\vspace{3mm}
+
+Dimensional Fund Advisors \hfill  Austin, TX\\
+\textit{Investment Research Intern} \hfill 2019\\
+\vspace{3mm}
+
+Tenor Capital Management Company \hfill  New York, NY\\
+\textit{Convertible Arbitrage Intern} \hfill 2018\\
+%\vspace{2mm}
+\vspace{5mm}
+
+%==== Skills ====%
+\header{Programming Experience}
+\vspace{1mm}
+	Advanced: Stata, Excel, Python, MATLAB \\
+	Experience: R, SQL, LaTeX \\
+	Basic: Java \\
+\vspace{5mm}
+
+%\header{Selected Undergraduate Coursework}
+%\vspace{1mm}
+%\begin{minipage}[t]{.3\linewidth}
+%  \begin{itemize}\itemsep -1pt
+%    \item Calculus 1-3
+%    \item Differential Equations
+%    \item Linear Algebra
+%    \item Real Analysis
+%    \item Data Science Methods
+%  \end{itemize}
+%\end{minipage}%
+%\begin{minipage}[t]{.3\linewidth}
+%  \begin{itemize}\itemsep -1pt
+%    \item Probability
+%    \item Optimization
+%    \item Stochastic Modeling
+%    \item Intermediate Macro/Microeconomics
+%  \end{itemize}
+%\end{minipage}%
+%\begin{minipage}[t]{.3\linewidth}
+%  \begin{itemize}\itemsep -1pt
+%    \item Political Economy
+%    \item Corporate Finance
+%    \item Investments
+%    \item Financial/Managerial Accounting
+%  \end{itemize}
+%\end{minipage}
+%\vspace{4mm}
+
+%==== Accolades ====%
+\header{Honors and Awards}
+\setstretch{1.1}
+\vspace{1mm}
+Propel Award, FRBNY \hfill 2022 \\
+Honors Carolina Laureate, UNC \hfill 2020 \\
+College Fellow Merit Scholarship, UNC \hfill 2016-2020\\
+The Edmund B. Ross III BSBA Endowment, UNC \hfill 2019\\
+Global BSBA Scholarship, UNC  \hfill 2017\\
+Kenan-Flagler Business School Assured Admission Program, UNC \hfill 2016-2017\\
+\vspace{5mm}
+
+\header{Other Skills \& Information}
+\vspace{1mm}
+	Language Proficiency: Russian (Native), French (Advanced) \\
+    %Citizenship: US and Israel
+
+\end{document}
+
