@@ -44,7 +44,7 @@ We use model-implied volatility to proxy for property risk perceptions in the co
 
 {{< paper
   title="Private Governance, Fees, and Capitalization in California Condominium Associations"
-  coauthors="Elif Tasar"
+  coauthors="[Elif Tasar](https://eliftasar.github.io/)"
 >}}{{< /paper >}}
 
 ## Other Research
