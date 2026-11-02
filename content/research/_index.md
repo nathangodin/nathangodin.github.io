@@ -4,48 +4,63 @@ title: Research
 
 ## Publications
 
-[Skin in the Game and Securitized Commercial Mortgage Pricing Before the Global Financial Crisis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5589272)
-
-**Economics Letters** (2025)
-
-With [Akos Horvath](https://www.federalreserve.gov/econres/akos-horvath.htm), [Xingliang Ma](https://www.linkedin.com/in/xingliangma), and [Jacob Sagi](https://sites.google.com/view/professor-jssagi)
-
-Abstract: We find that the pre-Global Financial Crisis pricing of mortgages originated for placement into commercial mortgage-backed security trusts did not meaningfully depend on whether non-investment grade tranches of such trusts were sold soon after issuance into collateralized debt obligation pools.
-
----
+{{< paper
+  title="Skin in the Game and Securitized Commercial Mortgage Pricing Before the Global Financial Crisis"
+  url="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5589272"
+  coauthors="[Akos Horvath](https://www.federalreserve.gov/econres/akos-horvath.htm), [Xingliang Ma](https://www.linkedin.com/in/xingliangma), and [Jacob Sagi](https://sites.google.com/view/professor-jssagi)"
+  venue="*Economics Letters* (2025)"
+>}}
+We find that the pre-Global Financial Crisis pricing of mortgages originated for placement into commercial mortgage-backed security trusts did not meaningfully depend on whether non-investment grade tranches of such trusts were sold soon after issuance into collateralized debt obligation pools.
+{{< /paper >}}
 
 ## Working Papers
 
-[Homeowners Associations, Reserve Funding, and Condominium Maintenance: Evidence from Florida](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6435138)
+{{< paper
+  title="Homeowners Associations, Reserve Funding, and Condominium Maintenance: Evidence from Florida"
+  url="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6435138"
+  venue="SSRN Working Paper (2026)"
+  presented="ARES Fall Research and Leadership Symposium (2026, scheduled), ASSA-AREUEA (2027, scheduled)"
+  media="[San Francisco Chronicle](https://www.sfchronicle.com/realestate/article/hoa-condo-fee-california-22431478.php)"
+>}}
+Condominium maintenance requires collective saving for predictable capital expenditures. I study Florida's 2022 SB 4-D law, which mandates structural reserve funding and milestone inspections for condominium buildings. Difference-in-differences estimates show that the law raised HOA fees by 4.9–6.8 percent and permit probabilities by about 1.4–3.9 percentage points, indicating that real maintenance spending had been deferred. I then construct an association-level measure of reserve-adjustment intensity, Δ<sub>i</sub>, to study heterogeneity in market responses to reserve catch-up. Reduced-form event studies show little broad price response, but a one-standard-deviation larger reserve adjustment is associated with roughly 2–3 percentage points more negative price growth, and capitalization timing tests show that high-Δ<sub>i</sub> associations have about 7 percent lower listed prices in levels by 2025. Relative to full mechanical capitalization of the fee increase as net new cost, the estimated price response is much smaller in magnitude, suggesting that buyers treat much of the higher reserve contribution as replacing expected future special assessments or other deferred liabilities. Larger fee growth is also associated with more assessment liens against unit owners, and suggestive cross-sectional evidence points to financial capacity rather than association complexity as a driver of reserve underfunding.
+{{< /paper >}}
 
-**SSRN Working Paper** (2026)
+{{< paper
+  title="Risk Perception and Loan Underwriting in Securitized Commercial Mortgages"
+  url="https://www.federalreserve.gov/econres/feds/risk-perception-and-loan-underwriting-in-securitized-commercial-mortgages.htm"
+  coauthors="[Simon Firestone](https://www.linkedin.com/in/simon-firestone/), [Akos Horvath](https://www.federalreserve.gov/econres/akos-horvath.htm), and [Jacob Sagi](https://sites.google.com/view/professor-jssagi)"
+  venue="FEDS Working Paper (2024)"
+  presented="Federal Reserve Board (2021), University of Wisconsin Business School (2022), Cleveland Fed (2022), Pre-WFA Real Estate Symposium (2023), Baruch College (2023), Securities and Exchange Commission (2023), ASSA-AREUEA (2025), William & Mary (2025), Boca Finance and Real Estate Conference (2025), University of Georgia (2026)"
+>}}
+We use model-implied volatility to proxy for property risk perceptions in the commercial real estate lending market. Although loan-to-value ratios (LTVs) unconditionally decreased following the Global Financial Crisis, LTVs conditioned on implied volatility and other theoretically motivated fundamental determinants of optimal leverage show no conclusive trend before or after the crisis. Taking reported property and loan attributes at face value, we find no clear pattern of unwarranted credit being extended to commercial real estate assets. We conclude that systematically higher LTV decisions pre-crisis would have primarily stemmed from risk misperceptions rather than imprudent practices. Our findings suggest that the aggregate LTV level should be interpreted as a proxy for lending standards only after controlling for aggregate risk perceptions, among a host of asset and lending market factors. Our findings also highlight the importance of measuring and tracking aggregate risk perceptions in informing regulators and policymakers.
+{{< /paper >}}
 
-Abstract: Condominium maintenance requires collective saving for predictable capital expenditures. I study Florida's 2022 SB 4-D law, which mandates structural reserve funding and milestone inspections for condominium buildings. Difference-in-differences estimates show that the law raised HOA fees by 4.9-6.8 percent and permit probabilities by about 1.4-3.9 percentage points, indicating that real maintenance spending had been deferred. I then construct an association-level measure of reserve-adjustment intensity, delta_i, to study heterogeneity in market responses to reserve catch-up. Reduced-form event studies show little broad price response, but a one-standard-deviation larger reserve adjustment is associated with roughly 2-3 percentage points more negative price growth, and capitalization timing tests show that high-delta_i associations have about 7 percent lower listed prices in levels by 2025. Relative to full mechanical capitalization of the fee increase as net new cost, the estimated price response is much smaller in magnitude, suggesting that buyers treat much of the higher reserve contribution as replacing expected future special assessments or other deferred liabilities. Larger fee growth is also associated with more assessment liens against unit owners, and suggestive cross-sectional evidence points to financial capacity rather than association complexity as a driver of reserve underfunding.
+## Projects in Advanced Stages
 
----
+{{< paper
+  title="Universal Scaling Laws of Public Corporations: Analysis Across Countries, Sectors, and Epochs"
+  coauthors="[Akos Horvath](https://www.federalreserve.gov/econres/akos-horvath.htm)"
+>}}{{< /paper >}}
 
-[Risk Perception and Loan Underwriting in Securitized Commercial Mortgages](https://www.federalreserve.gov/econres/feds/risk-perception-and-loan-underwriting-in-securitized-commercial-mortgages.htm)
-
-**FEDS Working Paper** (2024)
-
-With [Simon Firestone](https://www.linkedin.com/in/simon-firestone/), [Akos Horvath](https://www.federalreserve.gov/econres/akos-horvath.htm), and [Jacob Sagi](https://sites.google.com/view/professor-jssagi)
-
-Abstract: We use model-implied volatility to proxy for property risk perceptions in the commercial real estate lending market. Although loan-to-value ratios (LTVs) unconditionally decreased following the Global Financial Crisis, LTVs conditioned on implied volatility and other theoretically motivated fundamental determinants of optimal leverage show no conclusive trend before or after the crisis. Taking reported property and loan attributes at face value, we find no clear pattern of unwarranted credit being extended to commercial real estate assets. We conclude that systematically higher LTV decisions pre-crisis would have primarily stemmed from risk misperceptions rather than imprudent practices. Our findings suggest that the aggregate LTV level should be interpreted as a proxy for lending standards only after controlling for aggregate risk perceptions, among a host of asset and lending market factors. Our findings also highlight the importance of measuring and tracking aggregate risk perceptions in informing regulators and policymakers.
-
----
+{{< paper
+  title="Private Governance, Fees, and Capitalization in California Condominium Associations"
+  coauthors="Elif Tasar"
+>}}{{< /paper >}}
 
 ## Other Research
 
-[Who Received PPP Loans by Fintech Lenders?](https://libertystreeteconomics.newyorkfed.org/2021/05/who-received-ppp-loans-by-fintech-lenders/)
+{{< paper
+  title="Who Received PPP Loans by Fintech Lenders?"
+  url="https://libertystreeteconomics.newyorkfed.org/2021/05/who-received-ppp-loans-by-fintech-lenders/"
+  coauthors="[Asani Sarkar](https://www.newyorkfed.org/research/economists/sarkar), [Claire Kramer Mills](https://www.linkedin.com/in/claire-kramer-mills-a0aa622/), and [Jessica Battisto](https://www.linkedin.com/in/jessicabattisto/)"
+  venue="FRBNY *Liberty Street Economics* (2021)"
+  media="Cited in [congressional testimony](https://docs.house.gov/meetings/BA/BA15/20210929/114093/HHRG-117-BA15-Wstate-Henry-NickieM-20210929.pdf) before the House Financial Services Subcommittee on Consumer Protection and Financial Institutions; covered by [The Hill](https://thehill.com/opinion/finance/560133-fintech-lenders-are-critical-to-small-businesses-accessing-ppp) and the [Financial Times](https://www.ft.com/content/4face0c6-c1fb-47af-972b-8749e92b4baf)"
+>}}{{< /paper >}}
 
-**FRBNY Blog Post** (2021)
-
-With [Asani Sarkar](https://www.newyorkfed.org/research/economists/sarkar), [Claire Kramer Mills](https://www.linkedin.com/in/claire-kramer-mills-a0aa622/), and [Jessica Battisto](https://www.linkedin.com/in/jessicabattisto/)
-
-<br>
-
-[Who Benefited from PPP Loans by Fintech Lenders?](https://libertystreeteconomics.newyorkfed.org/2021/05/who-benefited-from-ppp-loans-by-fintech-lenders/)
-
-**FRBNY Blog Post** (2021)
-
-With [Asani Sarkar](https://www.newyorkfed.org/research/economists/sarkar), [Claire Kramer Mills](https://www.linkedin.com/in/claire-kramer-mills-a0aa622/), and [Jessica Battisto](https://www.linkedin.com/in/jessicabattisto/)
+{{< paper
+  title="Who Benefited from PPP Loans by Fintech Lenders?"
+  url="https://libertystreeteconomics.newyorkfed.org/2021/05/who-benefited-from-ppp-loans-by-fintech-lenders/"
+  coauthors="[Asani Sarkar](https://www.newyorkfed.org/research/economists/sarkar), [Claire Kramer Mills](https://www.linkedin.com/in/claire-kramer-mills-a0aa622/), and [Jessica Battisto](https://www.linkedin.com/in/jessicabattisto/)"
+  venue="FRBNY *Liberty Street Economics* (2021)"
+  media="This post and the one above were covered by [Reuters](https://www.reuters.com/article/usa-fed-small-business-idUSL2N2NE15C), [Bloomberg](https://www.bloombergquint.com/onweb/black-business-owners-turned-to-fintech-to-get-u-s-pandemic-aid), and [American Banker](https://www.americanbanker.com/news/can-fintechs-build-on-strong-ppp-lending-to-black-businesses)"
+>}}{{< /paper >}}

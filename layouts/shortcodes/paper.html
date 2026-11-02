@@ -1,0 +1,23 @@
+{{- /* One research entry. Params: title, url, coauthors, venue, presented, media (markdown). Inner content is the abstract, shown collapsed. */ -}}
+{{- $p := .Page -}}
+<div class="paper">
+  <p class="paper-title">
+    {{- with .Get "url" }}<a href="{{ . }}">{{ $.Get "title" }}</a>{{ else }}<span class="paper-name">{{ .Get "title" }}</span>{{ end -}}
+    {{- with .Get "coauthors" }} <span class="paper-authors">with {{ $p.RenderString . }}</span>{{ end -}}
+  </p>
+  {{- with .Get "venue" }}
+  <p class="paper-venue">{{ $p.RenderString . }}</p>
+  {{- end }}
+  {{- with .Get "presented" }}
+  <p class="paper-meta"><span class="paper-label">Presentations:</span> {{ $p.RenderString . }}</p>
+  {{- end }}
+  {{- with .Get "media" }}
+  <p class="paper-meta"><span class="paper-label">Media:</span> {{ $p.RenderString . }}</p>
+  {{- end }}
+  {{- with strings.TrimSpace .Inner }}
+  <details class="abstract">
+    <summary>abstract</summary>
+    {{ $p.RenderString (dict "display" "block") . }}
+  </details>
+  {{- end }}
+</div>
